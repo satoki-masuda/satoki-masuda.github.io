@@ -26,6 +26,14 @@ section {
     margin-bottom: 40px;
 }
 
+/* Publications list styling */
+#publications ul {
+    max-width: 600px; /* Adjust this value as needed */
+    margin: auto; /* Centers the list */
+    padding: 0;
+    text-align: left; /* Aligns list text to the left */
+}
+
 footer {
     font-size: 0.8em;
 }

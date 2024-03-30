@@ -25,13 +25,30 @@ header h1 span:lang(en) {
     font-family: 'Montserrat', sans-serif; /* Font for English text */
 }
 
+.header-title-link {
+    text-decoration: none; /* アンダーラインを削除 */
+    color: inherit; /* 親要素から色を継承 */
+}
+
+.header-title-link:hover {
+    text-decoration: underline; /* ホバー時にアンダーラインを表示 */
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Noto Sans', sans-serif;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
+    margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav li {
+    padding: 10px;
 }
 
 nav ul li {
@@ -116,5 +133,14 @@ main {
     }
     .award-content {
         width: 70%; /* Example width for Awards */
+    }
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav li {
+        text-align: center;
+        padding: 15px;
     }
 }

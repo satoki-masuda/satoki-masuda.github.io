@@ -117,7 +117,7 @@ main {
 
 /* Mobile-first approach: full width on smaller screens */
 .home-content, .research-content, .publications-content, .award-content {
-    width: 80%;
+    max-width: 100%;
 }
 
 /* Media query for larger screens */
@@ -135,12 +135,26 @@ main {
         width: 70%; /* Example width for Awards */
     }
     nav ul {
-        flex-direction: column;
-        width: 100%;
+        flex-direction: row; /* ここをrowに修正 */
+        justify-content: center; /* メニュー項目を中央寄せに */
+        align-items: center; /* 項目を垂直中央揃えに */
+        flex-wrap: wrap; /* 必要に応じて項目を折り返し */
     }
 
     nav li {
         text-align: center;
         padding: 15px;
     }
+}
+
+@media (max-width: 767px) {
+    .container {
+        padding: 0 10px; /* コンテンツが端にぴったりつかないように余白を設定 */
+    }
+
+    nav ul {
+        flex-direction: column; /* スマホ表示ではナビゲーション項目を縦に並べる */
+    }
+
+    /* その他、小さな画面に合わせたスタイル調整 */
 }

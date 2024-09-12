@@ -116,8 +116,12 @@ main {
 
 
 /* Mobile-first approach: full width on smaller screens */
-.home-content, .research-content, .publications-content, .award-content {
+.home-content, .research-content, .publications-content, .award-content, .project-content, .codes-content {
     max-width: 100%;
+}
+
+.image-center {
+    text-align: center;
 }
 
 /* Media query for larger screens */
@@ -126,13 +130,19 @@ main {
         width: 50%; /* Example width for Home */
     }
     .research-content {
-        width: 50%; /* Example width for Research */
+        width: 70%; /* Example width for Research */
     }
     .publications-content {
         width: 60%; /* Example width for Publications */
     }
     .award-content {
         width: 70%; /* Example width for Awards */
+    }
+    .project-content {
+        width: 70%; /* Example width for Research */
+    }
+    .codes-content {
+        width: 70%; /* Example width for Research */
     }
     nav ul {
         flex-direction: row; /* ここをrowに修正 */
@@ -158,3 +168,4 @@ main {
 
     /* その他、小さな画面に合わせたスタイル調整 */
 }
+

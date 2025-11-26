@@ -1,7 +1,7 @@
 
-- date: 2025-12-9
+- date: "2025-12-9"
   text: "Presentation at HKSTS 2025 in Hong Kong, titled 'Estimating Behavioral Urban Dynamics under Strategic Interaction: A Game-Theoretic Approach to Transport and Development Policy.' "
   link: "/output.html#hksts2025-locationchoice"
-- date: 2025-11-19
+- date: "2025-11-19"
   text: "Presentation at IEEE ITSC 2025 in Gold Coast, Australia, titled 'Predictive Traffic Control for Evacuation Contraflow using ZDD Sampling.' "
   link: "/output.html#ieee2025-evacuationcontraflow"

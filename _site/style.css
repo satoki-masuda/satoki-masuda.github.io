@@ -206,10 +206,10 @@ main {
 }
 
 .home-photo img {
-    width: 180px;          /* 好きなサイズに調整可（200px 等） */
+    width: 180px;
     height: 180px;
-    border-radius: 50%;    /* 正方形＋50% なので完全な円になる */
-    object-fit: cover;     /* はみ出す部分はトリミング */
+    border-radius: 50%;
+    object-fit: cover;
     display: block;
     margin: 0 auto;
 }

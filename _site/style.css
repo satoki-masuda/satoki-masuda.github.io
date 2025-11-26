@@ -1,0 +1,227 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header h1 span:lang(ja) {
+    display: inline-block;
+    margin-right: 10px;
+    font-family: 'Kiwi Maru', serif;
+}
+
+header h1 span:lang(en) {
+    display: inline-block;
+    margin-right: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-title-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-title-link:hover {
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav li {
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding-left: 5px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+main {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.fa {
+    margin-right: 8px;
+    color: #333;
+}
+
+.social-links {
+    text-align: center;
+    padding: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
+
+.back-to-top {
+    display: inline-block;
+    padding: 10px;
+    background-color: #f8f8f8;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.back-to-top:hover {
+    background-color: #e7e7e7;
+}
+
+/* Layout width settings */
+.home-content, .research-content, .publications-content, .award-content, .project-content, .codes-content {
+    max-width: 100%;
+}
+
+/* Center images in content */
+.image-center {
+    text-align: center;
+}
+
+/* Larger screens */
+@media (min-width: 768px) {
+    .home-content { width: 50%; }
+    .research-content { width: 70%; }
+    .publications-content { width: 60%; }
+    .award-content { width: 70%; }
+    .project-content { width: 60%; }
+    .codes-content { width: 70%; }
+    nav ul {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    nav li {
+        text-align: center;
+        padding: 15px;
+    }
+}
+
+/* Hamburger menu (small screens) */
+.nav-toggle {
+    display: none;
+}
+.hamburger {
+    display: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    user-select: none;
+    margin: 10px;
+}
+@media (max-width: 767px) {
+    .hamburger { display: block; text-align: right; }
+    nav ul { display: none; flex-direction: column; align-items: flex-start; }
+    #nav-toggle:checked + .hamburger + nav ul {
+        display: block;
+        background-color: #fff;
+        width: 100%;
+        padding-left: 0;
+    }
+    nav ul li { margin: 10px 0; }
+    nav ul li a { font-size: 1.2em; }
+    .container { padding: 0 10px; }
+}
+
+.home-hero {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.home-news {
+    margin-top: 40px;
+}
+
+.news-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.news-list li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.news-date {
+    font-weight: bold;
+    margin-right: 8px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.home-intro {
+    flex: 2 1 260px;
+}
+
+.home-photo {
+    flex: 1 1 180px;
+    text-align: center;
+}
+
+.home-photo img {
+    width: 180px;          /* 好きなサイズに調整可（200px 等） */
+    height: 180px;
+    border-radius: 50%;    /* 正方形＋50% なので完全な円になる */
+    object-fit: cover;     /* はみ出す部分はトリミング */
+    display: block;
+    margin: 0 auto;
+}
+
+/* スマホでは縦並びにする */
+@media (max-width: 767px) {
+    .home-hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+    .home-intro {
+        width: 100%;
+    }
+}

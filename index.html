@@ -1,71 +1,52 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GNB2Z2XZW0"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-GNB2Z2XZW0');
-    </script>
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home: Satoki Masuda</title>
-    <meta name="description" content="Greetings and contact.">
-    <link rel="stylesheet" href="style.css">
-    <!---font--->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300&family=Montserrat:wght@500&family=Noto+Sans:wght@500&family=Noto+Serif:wght@300&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
-    <!---icon--->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-<body id="top">
-    <div class="container">
-        <header>
-            <a href="index.html" class="header-title-link">
-                <h1>
-                    <span lang="ja">増田 慧樹</span> | <span lang="en">Satoki MASUDA</span>
-                </h1>
-            </a>
-            <nav>
-                <ul>
-                    <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
-                    <li><a href="research.html"><i class="fa fa-flask"></i> Research</a></li>
-                    <li><a href="output.html"><i class="fa fa-book"></i> Output</a></li>
-                    <li><a href="project.html"><i class="fa-solid fa-person-running"></i> Project</a></li>
-                    <li><a href="codes.html"><i class="fa-solid fa-rocket"></i> Codes</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main class="home-content">
-            <section>
-                <h2>Welcome!</h2>
-                <p>I study behavior modeling and planning in urban space, using techniques from a variety of fields such as choice modeling, game theory, traffic flow theory, and machine learning. 
-                    <br>
-                    Currently, I am working toward the Ph.D. degree in the Department of Civil Engineering at the University of Tokyo, Japan. 
-                </p>
-                <p>
-                    <i class="fas fa-envelope"></i> masuda[at]bin.t.u-tokyo.ac.jp
-                </p>
-            </section>
-
-            <p>
-                <div class="social-links">
-                    <a href="https://scholar.google.co.jp/citations?hl=ja&user=-foCHe0AAAAJ" title="Google Scholar"><i class="fa-brands fa-google"></i></a>
-                    <a href="https://orcid.org/0009-0003-9529-6114" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
-                    <a href="https://www.researchgate.net/profile/Satoki-Masuda" title="ResearchGate"><i class="fa-brands fa-researchgate"></i></a>
-                    <a href="https://github.com/satoki-masuda" title="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/satoki-masuda-46aa2325a" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-                </div>
-            </p>
-        </main>
-        <footer>
-            <a href="#top" class="back-to-top">Back to Top</a>
-        </footer>
+---
+layout: default
+title: "Home: Satoki Masuda"
+description: "Greetings and contact."
+lang: "en"
+content_class: "home-content"
+---
+<section class="home-hero">
+    <div class="home-photo">
+        <img src="img/Masuda_Satoki.png" alt="Satoki Masuda profile photo">
     </div>
-</body>
-</html>
+    <div class="home-intro">
+        <h2>Welcome!</h2>
+        <p>
+            I study behavior modeling and planning in urban spaces, using techniques from various fields such as choice modeling,
+            game theory, traffic flow theory, and machine learning.<br>
+            Currently, I am working toward the Ph.D. degree in the Department of Civil Engineering at the University of Tokyo, Japan.
+        </p>
+        <p><i class="fas fa-envelope"></i> masuda[at]bin.t.u-tokyo.ac.jp</p>
+    </div>
+    
+</section>
+<!---
+<section>
+    <h2>Profile</h2>
+    <p><strong>Affiliation:</strong> Department of Civil Engineering, The University of Tokyo</p>
+    <p><strong>Short Bio:</strong> Masuda Satoki is a Ph.D. student at the University of Tokyo (since 2023). He received his B.Eng. and M.Eng. from the University of Tokyo, and is currently a JSPS Research Fellow (DC1).</p>
+</section>
+-->
+<section class="home-news">
+    <h2>News</h2>
+    <ul class="news-list">
+        {% assign news_items = site.data.news | sort: 'date' | reverse %}
+        {% for item in news_items limit: 5 %}
+            <li>
+                <span class="news-date">{{ item.date }}</span>
+                {% if item.link and item.link != "" %}
+                    <a href="{{ item.link | relative_url }}">{{ item.text }}</a>
+                {% else %}
+                    {{ item.text }}
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+</section>
+<div class="social-links">
+    <a href="https://scholar.google.co.jp/citations?hl=ja&user=-foCHe0AAAAJ" title="Google Scholar"><i class="fa-brands fa-google"></i></a>
+    <a href="https://orcid.org/0009-0003-9529-6114" title="ORCID"><i class="fa-brands fa-orcid"></i></a>
+    <a href="https://www.researchgate.net/profile/Satoki-Masuda" title="ResearchGate"><i class="fa-brands fa-researchgate"></i></a>
+    <a href="https://github.com/satoki-masuda" title="GitHub"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/satoki-masuda-46aa2325a" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+</div>

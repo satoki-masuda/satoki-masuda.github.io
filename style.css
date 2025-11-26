@@ -14,24 +14,24 @@ header {
 }
 
 header h1 span:lang(ja) {
-    display: inline-block; /* Display inline for side-by-side positioning */
-    margin-right: 10px; /* Optional: Adjust spacing between names */
-    font-family: 'Kiwi Maru', serif; /* Font for Japanese text */
+    display: inline-block;
+    margin-right: 10px;
+    font-family: 'Kiwi Maru', serif;
 }
 
 header h1 span:lang(en) {
-    display: inline-block; /* Display inline for side-by-side positioning */
-    margin-right: 10px; /* Optional: Adjust spacing between names */
-    font-family: 'Montserrat', sans-serif; /* Font for English text */
+    display: inline-block;
+    margin-right: 10px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header-title-link {
-    text-decoration: none; /* アンダーラインを削除 */
-    color: inherit; /* 親要素から色を継承 */
+    text-decoration: none;
+    color: inherit;
 }
 
 .header-title-link:hover {
-    text-decoration: underline; /* ホバー時にアンダーラインを表示 */
+    text-decoration: underline;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -89,83 +89,139 @@ main {
 
 .social-links a {
     margin: 0 10px;
-    color: #333; /* Icon color */
-    font-size: 24px; /* Icon size */
+    color: #333;
+    font-size: 24px;
     text-decoration: none;
 }
 
 .social-links a:hover {
-    color: #007bff; /* Color on hover */
+    color: #007bff;
 }
-
 
 .back-to-top {
     display: inline-block;
     padding: 10px;
-    background-color: #f8f8f8; /* Example background color */
-    color: #000; /* Example text color */
+    background-color: #f8f8f8;
+    color: #000;
     text-decoration: none;
     border-radius: 5px;
     margin-top: 20px;
 }
 
-/* Optionally, add hover effect */
 .back-to-top:hover {
     background-color: #e7e7e7;
 }
 
-
-/* Mobile-first approach: full width on smaller screens */
+/* Layout width settings */
 .home-content, .research-content, .publications-content, .award-content, .project-content, .codes-content {
     max-width: 100%;
 }
 
+/* Center images in content */
 .image-center {
     text-align: center;
 }
 
-/* Media query for larger screens */
+/* Larger screens */
 @media (min-width: 768px) {
-    .home-content {
-        width: 50%; /* Example width for Home */
-    }
-    .research-content {
-        width: 70%; /* Example width for Research */
-    }
-    .publications-content {
-        width: 60%; /* Example width for Publications */
-    }
-    .award-content {
-        width: 70%; /* Example width for Awards */
-    }
-    .project-content {
-        width: 60%; /* Example width for Research */
-    }
-    .codes-content {
-        width: 70%; /* Example width for Research */
-    }
+    .home-content { width: 50%; }
+    .research-content { width: 70%; }
+    .publications-content { width: 60%; }
+    .award-content { width: 70%; }
+    .project-content { width: 60%; }
+    .codes-content { width: 70%; }
     nav ul {
-        flex-direction: row; /* ここをrowに修正 */
-        justify-content: center; /* メニュー項目を中央寄せに */
-        align-items: center; /* 項目を垂直中央揃えに */
-        flex-wrap: wrap; /* 必要に応じて項目を折り返し */
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
-
     nav li {
         text-align: center;
         padding: 15px;
     }
 }
 
+/* Hamburger menu (small screens) */
+.nav-toggle {
+    display: none;
+}
+.hamburger {
+    display: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    user-select: none;
+    margin: 10px;
+}
 @media (max-width: 767px) {
-    .container {
-        padding: 0 10px; /* コンテンツが端にぴったりつかないように余白を設定 */
+    .hamburger { display: block; text-align: right; }
+    nav ul { display: none; flex-direction: column; align-items: flex-start; }
+    #nav-toggle:checked + .hamburger + nav ul {
+        display: block;
+        background-color: #fff;
+        width: 100%;
+        padding-left: 0;
     }
-
-    nav ul {
-        flex-direction: column; /* スマホ表示ではナビゲーション項目を縦に並べる */
-    }
-
-    /* その他、小さな画面に合わせたスタイル調整 */
+    nav ul li { margin: 10px 0; }
+    nav ul li a { font-size: 1.2em; }
+    .container { padding: 0 10px; }
 }
 
+.home-hero {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.home-news {
+    margin-top: 40px;
+}
+
+.news-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.news-list li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.news-date {
+    font-weight: bold;
+    margin-right: 8px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.home-intro {
+    flex: 2 1 260px;
+}
+
+.home-photo {
+    flex: 1 1 180px;
+    text-align: center;
+}
+
+.home-photo img {
+    width: 180px;          /* 好きなサイズに調整可（200px 等） */
+    height: 180px;
+    border-radius: 50%;    /* 正方形＋50% なので完全な円になる */
+    object-fit: cover;     /* はみ出す部分はトリミング */
+    display: block;
+    margin: 0 auto;
+}
+
+/* スマホでは縦並びにする */
+@media (max-width: 767px) {
+    .home-hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+    }
+    .home-intro {
+        width: 100%;
+    }
+}

@@ -1,0 +1,213 @@
+# Publications data
+journals:
+  - authors_en: "Masuda, S., & Ikegai, M."
+    title_en: "An empirical analysis of learning and forgetting mechanisms in repeated evacuations: A panel recursive logit approach"
+    journal_en: "Transportmetrica B: Transport Dynamics, 12(1)"
+    year: 2024
+    doi: "http://dx.doi.org/10.1080/21680566.2024.2422366"
+    links:
+      paper: "https://drive.google.com/file/d/1inpb6QGsczLAWTTyzqLYXoliEVB8QcjK/view?usp=drive_link"
+  - authors_jp: "増田慧樹, & 羽藤英二"
+    authors_en: "Masuda, S., & Hato, E."
+    title_jp: "多期間展開ゲームに基づく立地行動モデルを用いた事前復興インセンティブの最適設計"
+    title_en: "Optimal incentive design of pre-disaster urban planning based on location choice modeling with extensive-form game"
+    journal_jp: "都市計画論文集, 59(3), pp.1091-1098"
+    journal_en: "Journal of the City Planning Institute of Japan, 59(3), pp.1091-1098"
+    year: 2024
+    doi: "https://doi.org/10.11361/journalcpij.59.1091"
+    links:
+      slides: "https://speakerdeck.com/stkmsd/cpij2024-disasterlocationgame"
+  - authors_en: "Ikegai, M., Hidaka, K., & Masuda, S."
+    title_en: "Short-term panel data analysis of the effect of flood risk communication on individual evacuation decisions"
+    journal_en: "International Journal of Disaster Risk Reduction, 106, 104433"
+    year: 2024
+    doi: "https://doi.org/10.1016/j.ijdrr.2024.104433"
+    links:
+
+  - authors_en: "Hidaka, K., Ikegai, M., & Masuda, S."
+    title_en: "Regression modeling of subjective probability of river inundation with epistemic uncertainty: a short-term panel data analysis"
+    journal_en: "Natural Hazards, 1-33"
+    year: 2024
+    doi: "https://doi.org/10.1007/s11069-024-06446-y"
+    links:
+      
+  - authors_jp: "増田慧樹, 羽藤英二, 小関玲奈, & 飯塚卓哉"
+    authors_en: "Masuda, S., Hato, E., Koseki, R., & Iizuka, T."
+    title_jp: "再帰ロジットを援用した復興都市計画のパレートフロンティア分析"
+    title_en: "Pareto frontier analysis of reconstruction city planning using recursive logit model"
+    journal_jp: "交通工学論文集, 8(1), pp.11-20"
+    journal_en: "JSTE Journal of Traffic Engineering, 8(1), pp.11-20"
+    year: 2022
+    doi: "https://doi.org/10.14954/jste.8.1_11"
+    links:
+      
+  - authors_jp: "増田慧樹, & 池内幸司"
+    authors_en: "Masuda, S., & Ikeuchi, K."
+    title_jp: "大規模水害時における孤立病院からの入院患者の救助時間短縮方法の提案"
+    title_en: "Proposal of Methods to Shorten the Rescue Time for Inpatients from Inundated Hospital during a Large-Scale Flood"
+    journal_jp: "災害情報, 20(1), pp.75-85"
+    journal_en: "Journal of disaster information studies, 20(1), pp.75-85"
+    year: 2022
+    doi: "http://www.jasdis.gr.jp/_src/2194/20-1.pdf?v=1696397008166"
+    links:
+      slides: "https://speakerdeck.com/stkmsd/jasdis-hospitalevacuation"
+    
+
+preprints:  
+
+
+conferences_peer:
+  - id: "hksts2025-locationchoice"
+    authors_en: "Masuda, S.* & Hato, E."
+    title_en: "Estimating Behavioral Urban Dynamics under Strategic Interaction: A Game-Theoretic Approach to Transport and Development Policy"
+    conference: "The 29th International Conference of Hong Kong Society for Transporation Studies (HKSTS), Hong Kong"
+    date: "Dec 8-9, 2025"
+    links: 
+      slides: "https://speakerdeck.com/stkmsd/hksts2025"
+  - id: "ieee2025-evacuationcontraflow"
+    authors_en: "Masuda, S.* & Hato, E."
+    title_en: "Predictive Traffic Control for Evacuation Contraflow using ZDD Sampling"
+    conference: "IEEE 28th International Conference on Intelligent Transportation Systems (ITSC), Gold Coast, Australia"
+    date: "Nov 19-21, 2025"
+    links:
+      slides: "https://speakerdeck.com/stkmsd/ieee2025"
+  - authors_en: "Masuda, S.* & Hato, E."
+    title_en: "Dynamic reconfiguration strategies for managing shelter and road congestion in urban emergency evacuations"
+    conference: "The 28th International Conference of Hong Kong Society for Transporation Studies (HKSTS), Hong Kong"
+    date: "Dec 9-10, 2024"
+    links:
+      slides: "https://speakerdeck.com/stkmsd/hksts2024"
+  - authors_en: "Masuda, S.* & Hato, E."
+    title_en: "Combinatorial reconfiguration problem based on MFD for evacuation management under disasters"
+    conference: "TRC-30 (30th Anniversary of Transportation Research Part C), Crete, Greece"
+    date: "Sept 2-4, 2024"
+    links:
+      slides: "https://speakerdeck.com/stkmsd/trc30-combinatorialreconfiguration"
+  - authors_en: "Masuda, S.* & Hato, E."
+    title_en: "Dynamic Optimization of Transportation Infrastructure Investment based on Subgame Perfect Equilibrium"
+    conference: "The 27th International Conference of Hong Kong Society for Transporation Studies (HKSTS), Hong Kong"
+    date: "Dec 11-12, 2023"
+    links:
+      slides: "https://speakerdeck.com/stkmsd/hksts2023-alphazerolocationgame"
+  - authors_en: "Masuda, S.* & Hato, E."
+    title_en: "An empirical analysis of the forgetting mechanism in repeated evacuations with the recursive logit model"
+    conference: "The 16th World Conference on Transport Research (WCTR), Montreal, Canada"
+    date: "July 17-21, 2023"
+    links:
+      slides: "https://speakerdeck.com/stkmsd/wctr2023-evacuationlearningmodel"
+  - authors_en: "Masuda, S.*, Iizuka, T., & Hato, E."
+    title_en: "A dynamic activity scheduling model for correcting fatalities’ non-response bias in tsunami evacuation"
+    conference: "The 16th International Conference on Travel Behavior Research (IATBR), Santiago, Chile"
+    date: "December 12-15, 2022"
+    links:
+      slides: "https://speakerdeck.com/stkmsd/iatbr2022-masuda"
+  - authors_en: "Masuda, S.* & Hato, E."
+    title_en: "Evacuation choice modeling using reinforcement learning based on the multi-armed bandit problem"
+    conference: "The 12th International Conference of the International Society for the Integrated Disaster Risk Management (IDRiM), Online"
+    date: "September 21-23, 2022"
+    links:
+      slides: "https://speakerdeck.com/stkmsd/idrim2022-evacuationlearningmodel"
+  - authors_en: "Masuda, S.* & Hato, E."
+    title_en: "Macroscopic network design for dynamic evacuation scheduling with MFD-based assignment using the recursive logit model"
+    conference: "The 11th Triennial Symposium on Transportation Analysis conference (TRISTAN), Mauritius Island"
+    date: "June 19-25, 2022"
+    links:
+      slides: "https://speakerdeck.com/stkmsd/tristan2022-evacuationndp"
+  - authors_en: "Masuda, S.*, Koseki R., & Hato, E."
+    title_en: "Evacuation Network Design with a Dynamic Scheduling Model: Pareto Frontier Analysis for Historic Tsunami Recovery Urban Planning"
+    conference: "The 101st TRB Annual Meeting"
+    date: "2022 (accepted)"
+  - authors_en: "Masuda, S.*, Hato, E., Koseki R., & Iizuka, T."
+    title_en: "Cliometric analysis with a pareto frontier of urban planning after the Chile tsunami"
+    conference: "The 11th International Conference of the International Society for the Integrated Disaster Risk Management, Online"
+    date: "September 22-24, 2021"
+    links:
+      slides: "https://speakerdeck.com/stkmsd/idrim2021-cliometricndp"
+
+
+conferences_nonpeer:
+  - authors_jp: "増田慧樹*, 羽藤英二"
+    title_jp: "大型台風避難におけるContraflowの組合せ遷移最適制御問題"
+    conference_jp: "第71回土木計画学研究発表会・春大会"
+    date: "2025年6月"
+    links:
+      slides: "https://speakerdeck.com/stkmsd/ip71-contraflow-reconfiguration"
+  - authors_jp: "増田慧樹*, 羽藤英二"
+    title_jp: "反実仮想機械学習を用いた行動変容のための情報提供方策の最適化"
+    conference_jp: "第70回土木計画学研究発表会・秋大会"
+    date: "2024年11月"
+    links:
+      slides: "https://speakerdeck.com/stkmsd/ip70-counterfactual-machine-learning"
+  - authors_jp: "増田慧樹*, & 羽藤英二"
+    title_jp: "多期間展開ゲームに基づく立地行動モデルを用いた事前復興インセンティブの最適設計"
+    conference_jp: "都市計画学会 2024年度全国大会（第59回学術研究論文発表会）"
+    date: "2024年11月"
+    links:
+      slides: "https://speakerdeck.com/stkmsd/cpij2024-disasterlocationgame"
+  - authors_jp: "山本浩司*, 新宮圭一, 羽藤英二, 増田慧樹, 近藤愛子"
+    title_jp: "宇和海沿岸地域「防災地理部」の取り組み～東北復興の視察と情報発信～"
+    conference_jp: "第18回南海地震四国地域学術シンポジウム"
+    date: "2023年12月"
+  - authors_jp: "増田慧樹*, 羽藤英二"
+    title_jp: "立地行動における相互動学的意思決定とその解空間の性質"
+    conference_jp: "第68回土木計画学研究発表会・秋大会, 東京都立大学"
+    date: "2023年11月"
+    links:
+      slides: "https://speakerdeck.com/stkmsd/ip68-locationgame"
+  - authors_jp: "増田慧樹*, 羽藤英二"
+    title_jp: "MFD-RL配分モデルを用いた豪雨災害における垂直・水平避難の予測制御"
+    conference_jp: "第67回土木計画学研究発表会・春大会, 福岡大学"
+    date: "2023年6月"
+    links:
+      slides: "https://speakerdeck.com/stkmsd/ip67-mfdrl-evacuation"
+  - authors_jp: "池貝未来*, 日高健, 増田慧樹, 羽藤英二"
+    title_jp: "リスク認知が避難行動に与える影響の分析 - 繰り返しSP調査を用いた河川氾濫に対する主観確率の回帰モデリング -"
+    conference_jp: "第66回土木計画学研究発表会・秋大会, 琉球大学"
+    date: "2022年11月"
+  - authors_jp: "増田慧樹*, 池貝未来, 羽藤英二"
+    title_jp: "異質性に着目した強化学習に基づく動的避難目的地選択モデル"
+    conference_jp: "第66回土木計画学研究発表会・秋大会, 琉球大学"
+    date: "2022年11月"
+    links:
+      slides: "https://speakerdeck.com/stkmsd/ip66-evacuationlearning"
+  - authors_jp: "池貝未来*, 増田慧樹"
+    title_jp: "江東区を対象とした水害時避難促進のための実証実験による避難行動分析"
+    conference_jp: "第17回日本モビリティ・マネジメント会議（JCOMM）, 松江市"
+    date: "2022年8月"
+presentations:
+  - title_jp: "多期間展開形ゲームに基づく立地行動モデルを用いた、事前復興インセンティブの最適設計"
+    event_jp: "第6回交通・都市理論ドクター若手勉強会 (金沢大学)"
+    date: "2024年12月6日"
+    links:
+      slides: "https://speakerdeck.com/stkmsd/kanazawa2024-f2e3d6dc-cac2-4a91-a618-1340b54dc9d8"
+  - title_en: "Dynamic Reconfiguration Strategies for Managing Shelter and Road Congestion in Urban Emergency Evacuations"
+    event_en: "International Seminar on Transport Planning & Traffic Behavior Analysis (The University of Tokyo)"
+    date: "November 14, 2024"
+  - title_en: "Game-theoretic Approaches for Urban Planning in Disaster-Prone Areas using Monte-Carlo-based deep reinforcement learning"
+    event_en: "UT Transportation and Urban Research Hub - Research Seminar (The University of Tokyo)"
+    date: "October 11, 2024"
+  - title_jp: "モビリティハブを活用した災害時の垂直・水平避難の動的予測制御"
+    event_jp: "モビリティハブが地域社会を変える"
+    date: "2024年3月1日"
+
+awards:
+  - name_jp: "第四回復興研究論文賞 奨励論文賞"
+    desc_jp: "「空間整備コストと避難完了人数のトレードオフを考慮した復興都市計画のパレートフロンティア分析」"
+    year: 2023
+fellowships:
+  - name_jp: "JST ACT-X (次世代 AI を築く数理・情報科学の革新)"
+    name_en: "JST ACT-X (Innovations in Mathematical and Information Sciences to Build the Next-Generation AI)"
+    provider_jp: "科学技術振興機構 (JST)"
+    provider_en: "Japan Science and Technology Agency (JST)"
+    title_jp: "時系列合成データによる動学立地均衡の解明・制御"
+    title_en: "Learning and Controlling Dynamic Location Equilibrium through Synthetic Time-series Data"
+    amount: "JPY 4.5 mil. / 2.5 years"
+    period: "October 2025 - March 2028"
+  - name_jp: "日本学術振興会 特別研究員奨励費 (DC1)"
+    name_en: "Grant-in-Aid for JSPS Fellows (DC1)"
+    provider_jp: "日本学術振興会"
+    provider_en: "Japan Society for the Promotion of Science"
+    title_jp: "災害常襲地域における多主体の再帰性を考慮した動的立地均衡問題"
+    title_en: "Dynamic location equilibrium problem with the recursive structure of multi-entity in disaster prone areas"
+    amount: "JPY 2.9 mil. / 3 years"
+    period: "April 2023 - March 2026"

@@ -8,21 +8,39 @@ content_class: "publications-content"
 <h1>Publications</h1>
 <section>
     <h2>Journal Articles</h2>
-    <ol>
-    {% for pub in site.data.publications.journals %}
-        <li{% if pub.id %} id="{{ pub.id }}"{% endif %}>
-        {% if pub.title_jp %}
-            {{ pub.authors_jp }} ({{ pub.year }}). <a href="{{ pub.doi | default: '#' }}" target="_blank">{{ pub.title_jp }}</a>. {{ pub.journal_jp }}.<br>
-            {{ pub.authors_en }} ({{ pub.year }}). <a href="{{ pub.doi | default: '#' }}" target="_blank">{{ pub.title_en }}</a>. {{ pub.journal_en }}.
+    <ol class="pub-list">
+    {% for pub in site.data.journal_articles.items %}
+        <li class="pub-item"{% if pub.id %} id="{{ pub.id }}"{% endif %}>
+        {% if pub.title.ja %}
+            <div class="pub-bilingual">
+                <div class="pub-bilingual-block">
+                    <span class="pub-authors">{{ pub.authors.ja | join: "、" }}</span>
+                    <span class="pub-date">({{ pub.date.year }})</span>.
+                    <a class="pub-title" href="{{ pub.identifiers.doi | default: '#' }}" target="_blank">{{ pub.title.ja }}</a>.
+                    <em class="pub-venue">{{ pub.venue.ja }}</em>{% if pub.publication_detail.raw.ja %}, <span class="pub-publication-detail">{{ pub.publication_detail.raw.ja }}</span>{% endif %}.
+                </div>
+                <div class="pub-bilingual-block">
+                    <span class="pub-authors">{{ pub.authors.en | join: ", " }}</span>
+                    <span class="pub-date">({{ pub.date.display_en | default: pub.date.year }})</span>.
+                    <a class="pub-title" href="{{ pub.identifiers.doi | default: '#' }}" target="_blank">{{ pub.title.en }}</a>.
+                    <em class="pub-venue">{{ pub.venue.en }}</em>{% if pub.publication_detail.raw.en %}, <span class="pub-publication-detail">{{ pub.publication_detail.raw.en }}</span>{% endif %}.
+                </div>
+            </div>
         {% else %}
-            {{ pub.authors_en }} ({{ pub.year }}). <a href="{{ pub.doi | default: '#' }}" target="_blank">{{ pub.title_en }}</a>. {{ pub.journal_en }}.
+            <div class="pub-main">
+                <span class="pub-authors">{{ pub.authors.en | join: ", " }}</span>
+                <span class="pub-date">({{ pub.date.display_en | default: pub.date.year }})</span>.
+                <a class="pub-title" href="{{ pub.identifiers.doi | default: '#' }}" target="_blank">{{ pub.title.en }}</a>.
+                <em class="pub-venue">{{ pub.venue.en }}</em>{% if pub.publication_detail.raw.en %}, <span class="pub-publication-detail">{{ pub.publication_detail.raw.en }}</span>{% endif %}.
+            </div>
         {% endif %}
         {% if pub.links %}
-            <br>
-            {% if pub.links.paper %}<a href="{{ pub.links.paper }}" title="Paper" target="_blank"><i class="fa-regular fa-file-lines"></i></a>{% endif %}
-            {% if pub.links.slides %}<a href="{{ pub.links.slides }}" title="Slides" target="_blank"><i class="fa-brands fa-speaker-deck"></i></a>{% endif %}
-            {% if pub.links.code %}<a href="{{ pub.links.code }}" title="Code" target="_blank"><i class="fab fa-github"></i></a>{% endif %}
-            {% if pub.links.video %}<a href="{{ pub.links.video }}" title="Video" target="_blank"><i class="fa fa-video"></i></a>{% endif %}
+            <div class="pub-links">
+                {% if pub.links.paper %}<a href="{{ pub.links.paper }}" title="Paper" target="_blank"><i class="fa-regular fa-file-lines"></i><span>Paper</span></a>{% endif %}
+                {% if pub.links.slides %}<a href="{{ pub.links.slides }}" title="Slides" target="_blank"><i class="fa-brands fa-speaker-deck"></i><span>Slides</span></a>{% endif %}
+                {% if pub.links.code %}<a href="{{ pub.links.code }}" title="Code" target="_blank"><i class="fab fa-github"></i><span>Code</span></a>{% endif %}
+                {% if pub.links.video %}<a href="{{ pub.links.video }}" title="Video" target="_blank"><i class="fa fa-video"></i><span>Video</span></a>{% endif %}
+            </div>
         {% endif %}
         </li>
     {% endfor %}
@@ -32,21 +50,41 @@ content_class: "publications-content"
 
 <section>
     <h2>Preprints</h2>
-    <ol>
-    {% for pre in site.data.publications.preprints %}
-        <li>{{ pre.authors_en }} ({{ pre.year }}). {{ pre.title_en }}{% if pre.note %} <em>{{ pre.note }}</em>{% endif %}.</li>
+    <ol class="pub-list">
+    {% for pre in site.data.preprints.items %}
+        <li class="pub-item">
+        <div class="pub-main">
+            <span class="pub-authors">{{ pre.authors.en | join: ", " }}</span>
+            <span class="pub-date">({{ pre.date.display_en | default: pre.date.year }})</span>.
+            <a class="pub-title" href="{{ pre.identifiers.doi | default: pre.links.paper | default: '#' }}" target="_blank">{{ pre.title.en }}</a>
+            {% if pre.notes %}<span class="pub-note"><em>{{ pre.notes }}</em></span>{% elsif pre.publication_detail.raw.en %}<span class="pub-note"><em>{{ pre.publication_detail.raw.en }}</em></span>{% endif %}.
+        </div>
+        {% if pre.links %}
+            <div class="pub-links">
+                {% if pre.links.paper %}<a href="{{ pre.links.paper }}" title="Paper" target="_blank"><i class="fa-regular fa-file-lines"></i><span>Paper</span></a>{% endif %}
+                {% if pre.links.slides %}<a href="{{ pre.links.slides }}" title="Slides" target="_blank"><i class="fa-brands fa-speaker-deck"></i><span>Slides</span></a>{% endif %}
+                {% if pre.links.code %}<a href="{{ pre.links.code }}" title="Code" target="_blank"><i class="fab fa-github"></i><span>Code</span></a>{% endif %}
+                {% if pre.links.video %}<a href="{{ pre.links.video }}" title="Video" target="_blank"><i class="fa fa-video"></i><span>Video</span></a>{% endif %}
+            </div>
+        {% endif %}
+        </li>
     {% endfor %}
     </ol>
 </section>
 
 <section>
     <h2>Conference Presentations (Peer-Reviewed)</h2>
-    <ol>
-    {% for conf in site.data.publications.conferences_peer %}
-        <li{% if conf.id %} id="{{ conf.id }}"{% endif %}></li>
-        {{ conf.authors_en }} ({{ conf.date }}). {{ conf.title_en }}, {{ conf.conference }}.
+    <ol class="pub-list">
+    {% for conf in site.data.conference_presentations_peer_reviewed.items %}
+        <li class="pub-item"{% if conf.id %} id="{{ conf.id }}"{% endif %}>
+        <div class="pub-main">
+            <span class="pub-authors">{{ conf.authors.en | join: ", " }}</span>
+            <span class="pub-date">({{ conf.date.display_en | default: conf.date.year }})</span>.
+            <span class="pub-title">{{ conf.title.en }}</span>.
+            <span class="pub-venue">{{ conf.event.en }}.</span>
+        </div>
         {% if conf.links and conf.links.slides %}
-            <br><a href="{{ conf.links.slides }}" title="Slides" target="_blank"><i class="fa-brands fa-speaker-deck"></i></a>
+            <div class="pub-links"><a href="{{ conf.links.slides }}" title="Slides" target="_blank"><i class="fa-brands fa-speaker-deck"></i><span>Slides</span></a></div>
         {% endif %}
         </li>
     {% endfor %}
@@ -55,12 +93,17 @@ content_class: "publications-content"
 
 <section>
     <h2>Conference Presentations (Non-Peer-Reviewed)</h2>
-    <ol>
-    {% for conf in site.data.publications.conferences_nonpeer %}
-        <li{% if conf.id %} id="{{ conf.id }}"{% endif %}></li>
-        {{ conf.authors_jp }}: {{ conf.title_jp }}, {{ conf.conference_jp }}, {{ conf.date }}.
+    <ol class="pub-list">
+    {% for conf in site.data.conference_presentations_non_peer_reviewed.items %}
+        <li class="pub-item"{% if conf.id %} id="{{ conf.id }}"{% endif %}>
+        <div class="pub-main">
+            <span class="pub-authors">{{ conf.authors.ja | join: "、" }}</span>
+            <span class="pub-date">({{ conf.date.display_ja | default: conf.date.year }})</span>.
+            <span class="pub-title">{{ conf.title.ja }}</span>.
+            <span class="pub-venue">{{ conf.event.ja }}.</span>
+        </div>
         {% if conf.links and conf.links.slides %}
-            <br><a href="{{ conf.links.slides }}" title="Slides" target="_blank"><i class="fa-brands fa-speaker-deck"></i></a>
+            <div class="pub-links"><a href="{{ conf.links.slides }}" title="Slides" target="_blank"><i class="fa-brands fa-speaker-deck"></i><span>Slides</span></a></div>
         {% endif %}
         </li>
     {% endfor %}
@@ -69,16 +112,22 @@ content_class: "publications-content"
 
 <section>
     <h2>Presentations</h2>
-    <ol>
-    {% for talk in site.data.publications.presentations %}
-        <li>
-        {% if talk.title_jp %}
-            {{ talk.title_jp }}, {{ talk.event_jp }}, {{ talk.date }}.
+    <ol class="pub-list">
+    {% for talk in site.data.presentations.items %}
+        <li class="pub-item">
+        <div class="pub-main">
+        {% if talk.title.ja %}
+            <span class="pub-date">({{ talk.date.display_ja | default: talk.date.year }})</span>.
+            <span class="pub-title">{{ talk.title.ja }}</span>.
+            <span class="pub-venue">{{ talk.event.ja }}.</span>
         {% else %}
-            {{ talk.title_en }}, {{ talk.event_en }}, {{ talk.date }}.
+            <span class="pub-date">({{ talk.date.display_en | default: talk.date.year }})</span>.
+            <span class="pub-title">{{ talk.title.en }}</span>.
+            <span class="pub-venue">{{ talk.event.en }}.</span>
         {% endif %}
+        </div>
         {% if talk.links and talk.links.slides %}
-            <br><a href="{{ talk.links.slides }}" title="Slides" target="_blank"><i class="fa-brands fa-speaker-deck"></i></a>
+            <div class="pub-links"><a href="{{ talk.links.slides }}" title="Slides" target="_blank"><i class="fa-brands fa-speaker-deck"></i><span>Slides</span></a></div>
         {% endif %}
         </li>
     {% endfor %}
@@ -87,22 +136,41 @@ content_class: "publications-content"
 
 <section>
     <h2>Awards</h2>
-    <ul>
-    {% for award in site.data.publications.awards %}
-        <li><b>{{ award.name_jp }}</b><br>{{ award.desc_jp }}</li>
+    <ul class="pub-simple-list">
+    {% for award in site.data.awards.items %}
+        <li class="pub-item"><span class="pub-award-name">{{ award.name.ja | default: award.name.en }}</span><br><span class="pub-award-description">{{ award.description.ja | default: award.description.en }}</span></li>
     {% endfor %}
     </ul>
 </section>
 
 <section>
-    <h2>Fellowships</h2>
-    <ul>
-    {% for fellow in site.data.publications.fellowships %}
-        {% if fellow.name_jp %}
-            <li><b>{{ fellow.name_jp }}</b><br>by {{ fellow.provider_jp }}<br>"{{ fellow.title_jp }}"<br>
-            <b>{{ fellow.name_en }}</b><br>by {{ fellow.provider_en }}<br>"{{ fellow.title_en }}"<br>{{ fellow.period }}</li>
+    <h2>Grants and Fellowships</h2>
+    <ul class="pub-simple-list">
+    {% for fellow in site.data.fellowships.items %}
+        {% if fellow.name.ja %}
+            <li class="pub-item">
+                <div class="pub-bilingual">
+                    <div class="pub-bilingual-block">
+                        <span class="pub-funding-name">{{ fellow.name.ja }}</span><br>
+                        <span class="pub-funding-provider">by {{ fellow.provider.ja }}</span><br>
+                        <span class="pub-funding-title">"{{ fellow.project_title.ja }}"</span><br>
+                        <span class="pub-funding-period">{{ fellow.period.display_ja | default: fellow.period.display_en }}</span>{% if fellow.amount %}<br><span class="pub-funding-amount">{{ fellow.amount }}</span>{% endif %}
+                    </div>
+                    <div class="pub-bilingual-block">
+                        <span class="pub-funding-name">{{ fellow.name.en }}</span><br>
+                        <span class="pub-funding-provider">by {{ fellow.provider.en }}</span><br>
+                        <span class="pub-funding-title">"{{ fellow.project_title.en }}"</span><br>
+                        <span class="pub-funding-period">{{ fellow.period.display_en | default: fellow.period.display_ja }}</span>{% if fellow.amount %}<br><span class="pub-funding-amount">{{ fellow.amount }}</span>{% endif %}
+                    </div>
+                </div>
+            </li>
         {% else %}
-            <li><b>{{ fellow.name_en }}</b><br>by {{ fellow.provider_en }}<br>"{{ fellow.title_en }}"<br>{{ fellow.period }}</li>
+            <li class="pub-item">
+                <span class="pub-funding-name">{{ fellow.name.en }}</span><br>
+                <span class="pub-funding-provider">by {{ fellow.provider.en }}</span><br>
+                <span class="pub-funding-title">"{{ fellow.project_title.en }}"</span><br>
+                <span class="pub-funding-period">{{ fellow.period.display_en }}</span>{% if fellow.amount %}<br><span class="pub-funding-amount">{{ fellow.amount }}</span>{% endif %}
+            </li>
         {% endif %}
     {% endfor %}
     </ul>

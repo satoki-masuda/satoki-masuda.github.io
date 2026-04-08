@@ -1,0 +1,120 @@
+{
+  "items": [
+    {
+      "id": "kanazawa2024-pre-disaster-incentive-study-group",
+      "title": {
+        "ja": "多期間展開形ゲームに基づく立地行動モデルを用いた、事前復興インセンティブの最適設計",
+        "en": null
+      },
+      "event": {
+        "ja": "第6回交通・都市理論ドクター若手勉強会 (金沢大学)",
+        "en": null
+      },
+      "date": {
+        "year": 2024,
+        "month": 12,
+        "day": 6,
+        "end_year": null,
+        "end_month": null,
+        "end_day": null,
+        "display_ja": "2024年12月6日",
+        "display_en": "December 6, 2024"
+      },
+      "links": {
+        "paper": null,
+        "slides": "https://speakerdeck.com/stkmsd/kanazawa2024-f2e3d6dc-cac2-4a91-a618-1340b54dc9d8",
+        "code": null,
+        "video": null
+      },
+      "language": ["ja"],
+      "notes": null
+    },
+    {
+      "id": "ut-seminar-2024-dynamic-reconfiguration",
+      "title": {
+        "ja": null,
+        "en": "Dynamic Reconfiguration Strategies for Managing Shelter and Road Congestion in Urban Emergency Evacuations"
+      },
+      "event": {
+        "ja": null,
+        "en": "International Seminar on Transport Planning & Traffic Behavior Analysis (The University of Tokyo)"
+      },
+      "date": {
+        "year": 2024,
+        "month": 11,
+        "day": 14,
+        "end_year": null,
+        "end_month": null,
+        "end_day": null,
+        "display_ja": "2024年11月14日",
+        "display_en": "November 14, 2024"
+      },
+      "links": {
+        "paper": null,
+        "slides": null,
+        "code": null,
+        "video": null
+      },
+      "language": ["en"],
+      "notes": null
+    },
+    {
+      "id": "ut-transport-hub-2024-game-theoretic-approaches",
+      "title": {
+        "ja": null,
+        "en": "Game-theoretic Approaches for Urban Planning in Disaster-Prone Areas using Monte-Carlo-based deep reinforcement learning"
+      },
+      "event": {
+        "ja": null,
+        "en": "UT Transportation and Urban Research Hub - Research Seminar (The University of Tokyo)"
+      },
+      "date": {
+        "year": 2024,
+        "month": 10,
+        "day": 11,
+        "end_year": null,
+        "end_month": null,
+        "end_day": null,
+        "display_ja": "2024年10月11日",
+        "display_en": "October 11, 2024"
+      },
+      "links": {
+        "paper": null,
+        "slides": null,
+        "code": null,
+        "video": null
+      },
+      "language": ["en"],
+      "notes": null
+    },
+    {
+      "id": "mobility-hub-2024-dynamic-evacuation-control",
+      "title": {
+        "ja": "モビリティハブを活用した災害時の垂直・水平避難の動的予測制御",
+        "en": null
+      },
+      "event": {
+        "ja": "モビリティハブが地域社会を変える",
+        "en": null
+      },
+      "date": {
+        "year": 2024,
+        "month": 3,
+        "day": 1,
+        "end_year": null,
+        "end_month": null,
+        "end_day": null,
+        "display_ja": "2024年3月1日",
+        "display_en": "March 1, 2024"
+      },
+      "links": {
+        "paper": null,
+        "slides": null,
+        "code": null,
+        "video": null
+      },
+      "language": ["ja"],
+      "notes": null
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "items": [
+    {
+      "id": "ip71-2025-contraflow-reconfiguration",
+      "title": {
+        "ja": "大型台風避難におけるContraflowの組合せ遷移最適制御問題",
+        "en": null
+      },
+      "authors": {
+        "ja": ["増田慧樹", "羽藤英二"],
+        "en": []
+      },
+      "author_annotations": {
+        "presenter": ["増田慧樹"]
+      },
+      "event": {
+        "ja": "第71回土木計画学研究発表会・春大会",
+        "en": null
+      },
+      "date": {
+        "year": 2025,
+        "month": 6,
+        "day": null,
+        "end_year": null,
+        "end_month": null,
+        "end_day": null,
+        "display_ja": "2025年6月",
+        "display_en": "June 2025"
+      },
+      "links": {
+        "paper": null,
+        "slides": "https://speakerdeck.com/stkmsd/ip71-contraflow-reconfiguration",
+        "code": null,
+        "video": null
+      },
+      "language": ["ja"],
+      "status": "presented",
+      "notes": null
+    },
+    {
+      "id": "ip70-2024-counterfactual-machine-learning",
+      "title": {
+        "ja": "反実仮想機械学習を用いた行動変容のための情報提供方策の最適化",
+        "en": null
+      },
+      "authors": {
+        "ja": ["増田慧樹", "羽藤英二"],
+        "en": []
+      },
+      "author_annotations": {
+        "presenter": ["増田慧樹"]
+      },
+      "event": {
+        "ja": "第70回土木計画学研究発表会・秋大会",
+        "en": null
+      },
+      "date": {
+        "year": 2024,
+        "month": 11,
+        "day": null,
+        "end_year": null,
+        "end_month": null,
+        "end_day": null,
+        "display_ja": "2024年11月",
+        "display_en": "November 2024"
+      },
+      "links": {
+        "paper": null,
+        "slides": "https://speakerdeck.com/stkmsd/ip70-counterfactual-machine-learning",
+        "code": null,
+        "video": null
+      },
+      "language": ["ja"],
+      "status": "presented",
+      "notes": null
+    },
+    {
+      "id": "cpij2024-disasterlocationgame-conference",
+      "title": {
+        "ja": "多期間展開ゲームに基づく立地行動モデルを用いた事前復興インセンティブの最適設計",
+        "en": null
+      },
+      "authors": {
+        "ja": ["増田慧樹", "羽藤英二"],
+        "en": []
+      },
+      "author_annotations": {
+        "presenter": ["増田慧樹"]
+      },
+      "event": {
+        "ja": "都市計画学会 2024年度全国大会（第59回学術研究論文発表会）",
+        "en": null
+      },
+      "date": {
+        "year": 2024,
+        "month": 11,
+        "day": null,
+        "end_year": null,
+        "end_month": null,
+        "end_day": null,
+        "display_ja": "2024年11月",
+        "display_en": "November 2024"
+      },
+      "links": {
+        "paper": null,
+        "slides": "https://speakerdeck.com/stkmsd/cpij2024-disasterlocationgame",
+        "code": null,
+        "video": null
+      },
+      "language": ["ja"],
+      "status": "presented",
+      "notes": null
+    },
+    {
+      "id": "nankai-2023-bosai-chiribu",
+      "title": {
+        "ja": "宇和海沿岸地域「防災地理部」の取り組み～東北復興の視察と情報発信～",
+        "en": null
+      },
+      "authors": {
+        "ja": ["山本浩司", "新宮圭一", "羽藤英二", "増田慧樹", "近藤愛子"],
+        "en": []
+      },
+      "author_annotations": {
+        "presenter": ["山本浩司"]
+      },
+      "event": {
+        "ja": "第18回南海地震四国地域学術シンポジウム",
+        "en": null
+      },
+      "date": {
+        "year": 2023,
+        "month": 12,
+        "day": null,
+        "end_year": null,
+        "end_month": null,
+        "end_day": null,
+        "display_ja": "2023年12月",
+        "display_en": "December 2023"
+      },
+      "links": {
+        "paper": null,
+        "slides": null,
+        "code": null,
+        "video": null
+      },
+      "language": ["ja"],
+      "status": "presented",
+      "notes": null
+    },
+    {
+      "id": "ip68-2023-locationgame",
+      "title": {
+        "ja": "立地行動における相互動学的意思決定とその解空間の性質",
+        "en": null
+      },
+      "authors": {
+        "ja": ["増田慧樹", "羽藤英二"],
+        "en": []
+      },
+      "author_annotations": {
+        "presenter": ["増田慧樹"]
+      },
+      "event": {
+        "ja": "第68回土木計画学研究発表会・秋大会, 東京都立大学",
+        "en": null
+      },
+      "date": {
+        "year": 2023,
+        "month": 11,
+        "day": null,
+        "end_year": null,
+        "end_month": null,
+        "end_day": null,
+        "display_ja": "2023年11月",
+        "display_en": "November 2023"
+      },
+      "links": {
+        "paper": null,
+        "slides": "https://speakerdeck.com/stkmsd/ip68-locationgame",
+        "code": null,
+        "video": null
+      },
+      "language": ["ja"],
+      "status": "presented",
+      "notes": null
+    },
+    {
+      "id": "ip67-2023-mfdrl-evacuation",
+      "title": {
+        "ja": "MFD-RL配分モデルを用いた豪雨災害における垂直・水平避難の予測制御",
+        "en": null
+      },
+      "authors": {
+        "ja": ["増田慧樹", "羽藤英二"],
+        "en": []
+      },
+      "author_annotations": {
+        "presenter": ["増田慧樹"]
+      },
+      "event": {
+        "ja": "第67回土木計画学研究発表会・春大会, 福岡大学",
+        "en": null
+      },
+      "date": {
+        "year": 2023,
+        "month": 6,
+        "day": null,
+        "end_year": null,
+        "end_month": null,
+        "end_day": null,
+        "display_ja": "2023年6月",
+        "display_en": "June 2023"
+      },
+      "links": {
+        "paper": null,
+        "slides": "https://speakerdeck.com/stkmsd/ip67-mfdrl-evacuation",
+        "code": null,
+        "video": null
+      },
+      "language": ["ja"],
+      "status": "presented",
+      "notes": null
+    },
+    {
+      "id": "ip66-2022-risk-recognition-evacuation-behavior",
+      "title": {
+        "ja": "リスク認知が避難行動に与える影響の分析 - 繰り返しSP調査を用いた河川氾濫に対する主観確率の回帰モデリング -",
+        "en": null
+      },
+      "authors": {
+        "ja": ["池貝未来", "日高健", "増田慧樹", "羽藤英二"],
+        "en": []
+      },
+      "author_annotations": {
+        "presenter": ["池貝未来"]
+      },
+      "event": {
+        "ja": "第66回土木計画学研究発表会・秋大会, 琉球大学",
+        "en": null
+      },
+      "date": {
+        "year": 2022,
+        "month": 11,
+        "day": null,
+        "end_year": null,
+        "end_month": null,
+        "end_day": null,
+        "display_ja": "2022年11月",
+        "display_en": "November 2022"
+      },
+      "links": {
+        "paper": null,
+        "slides": null,
+        "code": null,
+        "video": null
+      },
+      "language": ["ja"],
+      "status": "presented",
+      "notes": null
+    },
+    {
+      "id": "ip66-2022-evacuationlearning",
+      "title": {
+        "ja": "異質性に着目した強化学習に基づく動的避難目的地選択モデル",
+        "en": null
+      },
+      "authors": {
+        "ja": ["増田慧樹", "池貝未来", "羽藤英二"],
+        "en": []
+      },
+      "author_annotations": {
+        "presenter": ["増田慧樹"]
+      },
+      "event": {
+        "ja": "第66回土木計画学研究発表会・秋大会, 琉球大学",
+        "en": null
+      },
+      "date": {
+        "year": 2022,
+        "month": 11,
+        "day": null,
+        "end_year": null,
+        "end_month": null,
+        "end_day": null,
+        "display_ja": "2022年11月",
+        "display_en": "November 2022"
+      },
+      "links": {
+        "paper": null,
+        "slides": "https://speakerdeck.com/stkmsd/ip66-evacuationlearning",
+        "code": null,
+        "video": null
+      },
+      "language": ["ja"],
+      "status": "presented",
+      "notes": null
+    },
+    {
+      "id": "jcomm2022-koto-flood-evacuation",
+      "title": {
+        "ja": "江東区を対象とした水害時避難促進のための実証実験による避難行動分析",
+        "en": null
+      },
+      "authors": {
+        "ja": ["池貝未来", "増田慧樹"],
+        "en": []
+      },
+      "author_annotations": {
+        "presenter": ["池貝未来"]
+      },
+      "event": {
+        "ja": "第17回日本モビリティ・マネジメント会議（JCOMM）, 松江市",
+        "en": null
+      },
+      "date": {
+        "year": 2022,
+        "month": 8,
+        "day": null,
+        "end_year": null,
+        "end_month": null,
+        "end_day": null,
+        "display_ja": "2022年8月",
+        "display_en": "August 2022"
+      },
+      "links": {
+        "paper": null,
+        "slides": null,
+        "code": null,
+        "video": null
+      },
+      "language": ["ja"],
+      "status": "presented",
+      "notes": null
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "items": [
+    {
+      "id": "ssrn-6254084-contraflow-3d-evacuation-network",
+      "title": {
+        "ja": null,
+        "en": "Combinatorial reconfiguration for perimeter contraflow planning of three-dimensional evacuation network"
+      },
+      "authors": {
+        "ja": [],
+        "en": ["Masuda, Satoki", "Hato, Eiji"]
+      },
+      "venue": {
+        "ja": null,
+        "en": "SSRN"
+      },
+      "publication_detail": {
+        "raw": {
+          "ja": null,
+          "en": "Available at SSRN"
+        }
+      },
+      "date": {
+        "year": 2026,
+        "month": 2,
+        "day": null,
+        "end_year": null,
+        "end_month": null,
+        "end_day": null,
+        "display_ja": null,
+        "display_en": "2026"
+      },
+      "identifiers": {
+        "doi": "http://dx.doi.org/10.2139/ssrn.6254084",
+        "ssrn": "https://ssrn.com/abstract=6254084"
+      },
+      "links": {
+        "paper": "https://ssrn.com/abstract=6254084",
+        "slides": null,
+        "code": null,
+        "video": null
+      },
+      "language": ["en"],
+      "status": "preprint"
+    }
+  ]
+}

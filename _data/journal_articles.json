@@ -1,0 +1,280 @@
+{
+  "items": [
+    {
+      "id": "transportmetrica-b-2024-learning-forgetting-evacuations",
+      "title": {
+        "ja": null,
+        "en": "An empirical analysis of learning and forgetting mechanisms in repeated evacuations: A panel recursive logit approach"
+      },
+      "authors": {
+        "ja": [],
+        "en": ["Masuda, S.", "Ikegai, M."]
+      },
+      "venue": {
+        "ja": null,
+        "en": "Transportmetrica B: Transport Dynamics"
+      },
+      "publication_detail": {
+        "volume": "12",
+        "issue": "1",
+        "pages": null,
+        "raw": {
+          "ja": null,
+          "en": "12(1)"
+        }
+      },
+      "date": {
+        "year": 2024,
+        "month": null,
+        "day": null,
+        "end_year": null,
+        "end_month": null,
+        "end_day": null,
+        "display_ja": "2024年",
+        "display_en": "2024"
+      },
+      "identifiers": {
+        "doi": "http://dx.doi.org/10.1080/21680566.2024.2422366"
+      },
+      "links": {
+        "paper": "https://drive.google.com/file/d/1inpb6QGsczLAWTTyzqLYXoliEVB8QcjK/view?usp=drive_link",
+        "slides": null,
+        "code": null,
+        "video": null
+      },
+      "language": ["en"],
+      "status": "published",
+      "notes": null
+    },
+    {
+      "id": "cpij-2024-pre-disaster-incentive-journal",
+      "title": {
+        "ja": "多期間展開ゲームに基づく立地行動モデルを用いた事前復興インセンティブの最適設計",
+        "en": "Optimal incentive design of pre-disaster urban planning based on location choice modeling with extensive-form game"
+      },
+      "authors": {
+        "ja": ["増田慧樹", "羽藤英二"],
+        "en": ["Masuda, S.", "Hato, E."]
+      },
+      "venue": {
+        "ja": "都市計画論文集",
+        "en": "Journal of the City Planning Institute of Japan"
+      },
+      "publication_detail": {
+        "volume": "59",
+        "issue": "3",
+        "pages": "1091-1098",
+        "raw": {
+          "ja": "59(3), pp.1091-1098",
+          "en": "59(3), pp.1091-1098"
+        }
+      },
+      "date": {
+        "year": 2024,
+        "month": null,
+        "day": null,
+        "end_year": null,
+        "end_month": null,
+        "end_day": null,
+        "display_ja": "2024年",
+        "display_en": "2024"
+      },
+      "identifiers": {
+        "doi": "https://doi.org/10.11361/journalcpij.59.1091"
+      },
+      "links": {
+        "paper": null,
+        "slides": "https://speakerdeck.com/stkmsd/cpij2024-disasterlocationgame",
+        "code": null,
+        "video": null
+      },
+      "language": ["ja", "en"],
+      "status": "published",
+      "notes": null
+    },
+    {
+      "id": "ijdrr-2024-flood-risk-communication-evacuation",
+      "title": {
+        "ja": null,
+        "en": "Short-term panel data analysis of the effect of flood risk communication on individual evacuation decisions"
+      },
+      "authors": {
+        "ja": [],
+        "en": ["Ikegai, M.", "Hidaka, K.", "Masuda, S."]
+      },
+      "venue": {
+        "ja": null,
+        "en": "International Journal of Disaster Risk Reduction"
+      },
+      "publication_detail": {
+        "volume": "106",
+        "issue": null,
+        "pages": "104433",
+        "raw": {
+          "ja": null,
+          "en": "106, 104433"
+        }
+      },
+      "date": {
+        "year": 2024,
+        "month": null,
+        "day": null,
+        "end_year": null,
+        "end_month": null,
+        "end_day": null,
+        "display_ja": "2024年",
+        "display_en": "2024"
+      },
+      "identifiers": {
+        "doi": "https://doi.org/10.1016/j.ijdrr.2024.104433"
+      },
+      "links": {
+        "paper": null,
+        "slides": null,
+        "code": null,
+        "video": null
+      },
+      "language": ["en"],
+      "status": "published",
+      "notes": null
+    },
+    {
+      "id": "natural-hazards-2024-epistemic-uncertainty-inundation",
+      "title": {
+        "ja": null,
+        "en": "Regression modeling of subjective probability of river inundation with epistemic uncertainty: a short-term panel data analysis"
+      },
+      "authors": {
+        "ja": [],
+        "en": ["Hidaka, K.", "Ikegai, M.", "Masuda, S."]
+      },
+      "venue": {
+        "ja": null,
+        "en": "Natural Hazards"
+      },
+      "publication_detail": {
+        "volume": null,
+        "issue": null,
+        "pages": "1-33",
+        "raw": {
+          "ja": null,
+          "en": "1-33"
+        }
+      },
+      "date": {
+        "year": 2024,
+        "month": null,
+        "day": null,
+        "end_year": null,
+        "end_month": null,
+        "end_day": null,
+        "display_ja": "2024年",
+        "display_en": "2024"
+      },
+      "identifiers": {
+        "doi": "https://doi.org/10.1007/s11069-024-06446-y"
+      },
+      "links": {
+        "paper": null,
+        "slides": null,
+        "code": null,
+        "video": null
+      },
+      "language": ["en"],
+      "status": "published",
+      "notes": null
+    },
+    {
+      "id": "jste-2022-reconstruction-city-planning-pareto-frontier",
+      "title": {
+        "ja": "再帰ロジットを援用した復興都市計画のパレートフロンティア分析",
+        "en": "Pareto frontier analysis of reconstruction city planning using recursive logit model"
+      },
+      "authors": {
+        "ja": ["増田慧樹", "羽藤英二", "小関玲奈", "飯塚卓哉"],
+        "en": ["Masuda, S.", "Hato, E.", "Koseki, R.", "Iizuka, T."]
+      },
+      "venue": {
+        "ja": "交通工学論文集",
+        "en": "JSTE Journal of Traffic Engineering"
+      },
+      "publication_detail": {
+        "volume": "8",
+        "issue": "1",
+        "pages": "11-20",
+        "raw": {
+          "ja": "8(1), pp.11-20",
+          "en": "8(1), pp.11-20"
+        }
+      },
+      "date": {
+        "year": 2022,
+        "month": null,
+        "day": null,
+        "end_year": null,
+        "end_month": null,
+        "end_day": null,
+        "display_ja": "2022年",
+        "display_en": "2022"
+      },
+      "identifiers": {
+        "doi": "https://doi.org/10.14954/jste.8.1_11"
+      },
+      "links": {
+        "paper": null,
+        "slides": null,
+        "code": null,
+        "video": null
+      },
+      "language": ["ja", "en"],
+      "status": "published",
+      "notes": null
+    },
+    {
+      "id": "jasdis-2022-inundated-hospital-rescue-time",
+      "title": {
+        "ja": "大規模水害時における孤立病院からの入院患者の救助時間短縮方法の提案",
+        "en": "Proposal of Methods to Shorten the Rescue Time for Inpatients from Inundated Hospital during a Large-Scale Flood"
+      },
+      "authors": {
+        "ja": ["増田慧樹", "池内幸司"],
+        "en": ["Masuda, S.", "Ikeuchi, K."]
+      },
+      "venue": {
+        "ja": "災害情報",
+        "en": "Journal of disaster information studies"
+      },
+      "publication_detail": {
+        "volume": "20",
+        "issue": "1",
+        "pages": "75-85",
+        "raw": {
+          "ja": "20(1), pp.75-85",
+          "en": "20(1), pp.75-85"
+        }
+      },
+      "date": {
+        "year": 2022,
+        "month": null,
+        "day": null,
+        "end_year": null,
+        "end_month": null,
+        "end_day": null,
+        "display_ja": "2022年",
+        "display_en": "2022"
+      },
+      "identifiers": {
+        "doi": "http://www.jasdis.gr.jp/_src/2194/20-1.pdf?v=1696397008166"
+      },
+      "links": {
+        "paper": null,
+        "slides": "https://speakerdeck.com/stkmsd/jasdis-hospitalevacuation",
+        "code": null,
+        "video": null
+      },
+      "language": ["ja", "en"],
+      "status": "published",
+      "notes": null
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "items": [
+    {
+      "id": "hksts2025-locationchoice",
+      "title": {
+        "ja": null,
+        "en": "Estimating Behavioral Urban Dynamics under Strategic Interaction: A Game-Theoretic Approach to Transport and Development Policy"
+      },
+      "authors": {
+        "ja": [],
+        "en": ["Masuda, S.", "Hato, E."]
+      },
+      "author_annotations": {
+        "presenter": ["Masuda, S."]
+      },
+      "event": {
+        "ja": null,
+        "en": "The 29th International Conference of Hong Kong Society for Transportation Studies (HKSTS), Hong Kong"
+      },
+      "date": {
+        "year": 2025,
+        "month": 12,
+        "day": 8,
+        "end_year": 2025,
+        "end_month": 12,
+        "end_day": 9,
+        "display_ja": "2025年12月8-9日",
+        "display_en": "Dec 8-9, 2025"
+      },
+      "links": {
+        "paper": null,
+        "slides": "https://speakerdeck.com/stkmsd/hksts2025",
+        "code": null,
+        "video": null
+      },
+      "language": ["en"],
+      "status": "presented",
+      "notes": null
+    },
+    {
+      "id": "ieee2025-evacuationcontraflow",
+      "title": {
+        "ja": null,
+        "en": "Predictive Traffic Control for Evacuation Contraflow using ZDD Sampling"
+      },
+      "authors": {
+        "ja": [],
+        "en": ["Masuda, S.", "Hato, E."]
+      },
+      "author_annotations": {
+        "presenter": ["Masuda, S."]
+      },
+      "event": {
+        "ja": null,
+        "en": "IEEE 28th International Conference on Intelligent Transportation Systems (ITSC), Gold Coast, Australia"
+      },
+      "date": {
+        "year": 2025,
+        "month": 11,
+        "day": 19,
+        "end_year": 2025,
+        "end_month": 11,
+        "end_day": 21,
+        "display_ja": "2025年11月19-21日",
+        "display_en": "Nov 19-21, 2025"
+      },
+      "links": {
+        "paper": null,
+        "slides": "https://speakerdeck.com/stkmsd/ieee2025",
+        "code": null,
+        "video": null
+      },
+      "language": ["en"],
+      "status": "presented",
+      "notes": null
+    },
+    {
+      "id": "hksts2024-dynamic-reconfiguration-evacuations",
+      "title": {
+        "ja": null,
+        "en": "Dynamic reconfiguration strategies for managing shelter and road congestion in urban emergency evacuations"
+      },
+      "authors": {
+        "ja": [],
+        "en": ["Masuda, S.", "Hato, E."]
+      },
+      "author_annotations": {
+        "presenter": ["Masuda, S."]
+      },
+      "event": {
+        "ja": null,
+        "en": "The 28th International Conference of Hong Kong Society for Transportation Studies (HKSTS), Hong Kong"
+      },
+      "date": {
+        "year": 2024,
+        "month": 12,
+        "day": 9,
+        "end_year": 2024,
+        "end_month": 12,
+        "end_day": 10,
+        "display_ja": "2024年12月9-10日",
+        "display_en": "Dec 9-10, 2024"
+      },
+      "links": {
+        "paper": null,
+        "slides": "https://speakerdeck.com/stkmsd/hksts2024",
+        "code": null,
+        "video": null
+      },
+      "language": ["en"],
+      "status": "presented",
+      "notes": null
+    },
+    {
+      "id": "trc30-2024-combinatorial-reconfiguration",
+      "title": {
+        "ja": null,
+        "en": "Combinatorial reconfiguration problem based on MFD for evacuation management under disasters"
+      },
+      "authors": {
+        "ja": [],
+        "en": ["Masuda, S.", "Hato, E."]
+      },
+      "author_annotations": {
+        "presenter": ["Masuda, S."]
+      },
+      "event": {
+        "ja": null,
+        "en": "TRC-30 (30th Anniversary of Transportation Research Part C), Crete, Greece"
+      },
+      "date": {
+        "year": 2024,
+        "month": 9,
+        "day": 2,
+        "end_year": 2024,
+        "end_month": 9,
+        "end_day": 4,
+        "display_ja": "2024年9月2-4日",
+        "display_en": "Sept 2-4, 2024"
+      },
+      "links": {
+        "paper": null,
+        "slides": "https://speakerdeck.com/stkmsd/trc30-combinatorialreconfiguration",
+        "code": null,
+        "video": null
+      },
+      "language": ["en"],
+      "status": "presented",
+      "notes": null
+    },
+    {
+      "id": "hksts2023-alphazerolocationgame",
+      "title": {
+        "ja": null,
+        "en": "Dynamic Optimization of Transportation Infrastructure Investment based on Subgame Perfect Equilibrium"
+      },
+      "authors": {
+        "ja": [],
+        "en": ["Masuda, S.", "Hato, E."]
+      },
+      "author_annotations": {
+        "presenter": ["Masuda, S."]
+      },
+      "event": {
+        "ja": null,
+        "en": "The 27th International Conference of Hong Kong Society for Transportation Studies (HKSTS), Hong Kong"
+      },
+      "date": {
+        "year": 2023,
+        "month": 12,
+        "day": 11,
+        "end_year": 2023,
+        "end_month": 12,
+        "end_day": 12,
+        "display_ja": "2023年12月11-12日",
+        "display_en": "Dec 11-12, 2023"
+      },
+      "links": {
+        "paper": null,
+        "slides": "https://speakerdeck.com/stkmsd/hksts2023-alphazerolocationgame",
+        "code": null,
+        "video": null
+      },
+      "language": ["en"],
+      "status": "presented",
+      "notes": null
+    },
+    {
+      "id": "wctr2023-evacuationlearningmodel",
+      "title": {
+        "ja": null,
+        "en": "An empirical analysis of the forgetting mechanism in repeated evacuations with the recursive logit model"
+      },
+      "authors": {
+        "ja": [],
+        "en": ["Masuda, S.", "Hato, E."]
+      },
+      "author_annotations": {
+        "presenter": ["Masuda, S."]
+      },
+      "event": {
+        "ja": null,
+        "en": "The 16th World Conference on Transport Research (WCTR), Montreal, Canada"
+      },
+      "date": {
+        "year": 2023,
+        "month": 7,
+        "day": 17,
+        "end_year": 2023,
+        "end_month": 7,
+        "end_day": 21,
+        "display_ja": "2023年7月17-21日",
+        "display_en": "July 17-21, 2023"
+      },
+      "links": {
+        "paper": null,
+        "slides": "https://speakerdeck.com/stkmsd/wctr2023-evacuationlearningmodel",
+        "code": null,
+        "video": null
+      },
+      "language": ["en"],
+      "status": "presented",
+      "notes": null
+    },
+    {
+      "id": "iatbr2022-dynamic-activity-scheduling",
+      "title": {
+        "ja": null,
+        "en": "A dynamic activity scheduling model for correcting fatalities’ non-response bias in tsunami evacuation"
+      },
+      "authors": {
+        "ja": [],
+        "en": ["Masuda, S.", "Iizuka, T.", "Hato, E."]
+      },
+      "author_annotations": {
+        "presenter": ["Masuda, S."]
+      },
+      "event": {
+        "ja": null,
+        "en": "The 16th International Conference on Travel Behavior Research (IATBR), Santiago, Chile"
+      },
+      "date": {
+        "year": 2022,
+        "month": 12,
+        "day": 12,
+        "end_year": 2022,
+        "end_month": 12,
+        "end_day": 15,
+        "display_ja": "2022年12月12-15日",
+        "display_en": "December 12-15, 2022"
+      },
+      "links": {
+        "paper": null,
+        "slides": "https://speakerdeck.com/stkmsd/iatbr2022-masuda",
+        "code": null,
+        "video": null
+      },
+      "language": ["en"],
+      "status": "presented",
+      "notes": null
+    },
+    {
+      "id": "idrim2022-evacuationlearningmodel",
+      "title": {
+        "ja": null,
+        "en": "Evacuation choice modeling using reinforcement learning based on the multi-armed bandit problem"
+      },
+      "authors": {
+        "ja": [],
+        "en": ["Masuda, S.", "Hato, E."]
+      },
+      "author_annotations": {
+        "presenter": ["Masuda, S."]
+      },
+      "event": {
+        "ja": null,
+        "en": "The 12th International Conference of the International Society for the Integrated Disaster Risk Management (IDRiM)"
+      },
+      "date": {
+        "year": 2022,
+        "month": 9,
+        "day": 21,
+        "end_year": 2022,
+        "end_month": 9,
+        "end_day": 23,
+        "display_ja": "2022年9月21-23日",
+        "display_en": "September 21-23, 2022"
+      },
+      "links": {
+        "paper": null,
+        "slides": "https://speakerdeck.com/stkmsd/idrim2022-evacuationlearningmodel",
+        "code": null,
+        "video": null
+      },
+      "language": ["en"],
+      "status": "presented",
+      "notes": null
+    },
+    {
+      "id": "tristan2022-evacuationndp",
+      "title": {
+        "ja": null,
+        "en": "Macroscopic network design for dynamic evacuation scheduling with MFD-based assignment using the recursive logit model"
+      },
+      "authors": {
+        "ja": [],
+        "en": ["Masuda, S.", "Hato, E."]
+      },
+      "author_annotations": {
+        "presenter": ["Masuda, S."]
+      },
+      "event": {
+        "ja": null,
+        "en": "The 11th Triennial Symposium on Transportation Analysis conference (TRISTAN), Mauritius Island"
+      },
+      "date": {
+        "year": 2022,
+        "month": 6,
+        "day": 19,
+        "end_year": 2022,
+        "end_month": 6,
+        "end_day": 25,
+        "display_ja": "2022年6月19-25日",
+        "display_en": "June 19-25, 2022"
+      },
+      "links": {
+        "paper": null,
+        "slides": "https://speakerdeck.com/stkmsd/tristan2022-evacuationndp",
+        "code": null,
+        "video": null
+      },
+      "language": ["en"],
+      "status": "presented",
+      "notes": null
+    },
+    {
+      "id": "trb2022-accepted-tsunami-recovery-urban-planning",
+      "title": {
+        "ja": null,
+        "en": "Evacuation Network Design with a Dynamic Scheduling Model: Pareto Frontier Analysis for Historic Tsunami Recovery Urban Planning"
+      },
+      "authors": {
+        "ja": [],
+        "en": ["Masuda, S.", "Koseki, R.", "Hato, E."]
+      },
+      "author_annotations": {
+        "presenter": ["Masuda, S."]
+      },
+      "event": {
+        "ja": null,
+        "en": "The 101st TRB Annual Meeting"
+      },
+      "date": {
+        "year": 2022,
+        "month": null,
+        "day": null,
+        "end_year": null,
+        "end_month": null,
+        "end_day": null,
+        "display_ja": "2022年（accepted）",
+        "display_en": "2022 (accepted)"
+      },
+      "links": {
+        "paper": null,
+        "slides": null,
+        "code": null,
+        "video": null
+      },
+      "language": ["en"],
+      "status": "accepted",
+      "notes": "Exact conference date is not specified in the source data."
+    },
+    {
+      "id": "idrim2021-cliometricndp",
+      "title": {
+        "ja": null,
+        "en": "Cliometric analysis with a Pareto frontier of urban planning after the Chile tsunami"
+      },
+      "authors": {
+        "ja": [],
+        "en": ["Masuda, S.", "Hato, E.", "Koseki, R.", "Iizuka, T."]
+      },
+      "author_annotations": {
+        "presenter": ["Masuda, S."]
+      },
+      "event": {
+        "ja": null,
+        "en": "The 11th International Conference of the International Society for the Integrated Disaster Risk Management, Online"
+      },
+      "date": {
+        "year": 2021,
+        "month": 9,
+        "day": 22,
+        "end_year": 2021,
+        "end_month": 9,
+        "end_day": 24,
+        "display_ja": "2021年9月22-24日",
+        "display_en": "September 22-24, 2021"
+      },
+      "links": {
+        "paper": null,
+        "slides": "https://speakerdeck.com/stkmsd/idrim2021-cliometricndp",
+        "code": null,
+        "video": null
+      },
+      "language": ["en"],
+      "status": "presented",
+      "notes": null
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "id": "jst-actx-2025-next-generation-ai",
+      "name": {
+        "ja": "JST ACT-X (次世代 AI を築く数理・情報科学の革新)",
+        "en": "JST ACT-X (Innovations in Mathematical and Information Sciences to Build the Next-Generation AI)"
+      },
+      "provider": {
+        "ja": "科学技術振興機構 (JST)",
+        "en": "Japan Science and Technology Agency (JST)"
+      },
+      "project_title": {
+        "ja": "時系列合成データによる動学立地均衡の解明・制御",
+        "en": "Learning and Controlling Dynamic Location Equilibrium through Synthetic Time-series Data"
+      },
+      "amount": "JPY 4.5 mil. / 2.5 years",
+      "period": {
+        "start_year": 2025,
+        "start_month": 10,
+        "end_year": 2028,
+        "end_month": 3,
+        "display_ja": "2025年10月 - 2028年3月",
+        "display_en": "October 2025 - March 2028"
+      },
+      "status": "active",
+      "links": {
+        "announcement": null
+      },
+      "language": ["ja", "en"],
+      "notes": null
+    },
+    {
+      "id": "jsps-dc1-2023-grant-in-aid",
+      "name": {
+        "ja": "日本学術振興会 特別研究員奨励費 (DC1)",
+        "en": "Grant-in-Aid for JSPS Fellows (DC1)"
+      },
+      "provider": {
+        "ja": "日本学術振興会",
+        "en": "Japan Society for the Promotion of Science"
+      },
+      "project_title": {
+        "ja": "災害常襲地域における多主体の再帰性を考慮した動的立地均衡問題",
+        "en": "Dynamic location equilibrium problem with the recursive structure of multi-entity in disaster prone areas"
+      },
+      "amount": "JPY 2.9 mil. / 3 years",
+      "period": {
+        "start_year": 2023,
+        "start_month": 4,
+        "end_year": 2026,
+        "end_month": 3,
+        "display_ja": "2023年4月 - 2026年3月",
+        "display_en": "April 2023 - March 2026"
+      },
+      "status": "completed",
+      "links": {
+        "announcement": null
+      },
+      "language": ["ja", "en"],
+      "notes": null
+    }
+  ]
+}

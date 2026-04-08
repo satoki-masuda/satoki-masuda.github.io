@@ -1,0 +1,31 @@
+{
+  "items": [
+    {
+      "id": "reconstruction-paper-award-2023-encouragement",
+      "name": {
+        "ja": "第四回復興研究論文賞 奨励論文賞",
+        "en": null
+      },
+      "description": {
+        "ja": "「空間整備コストと避難完了人数のトレードオフを考慮した復興都市計画のパレートフロンティア分析」",
+        "en": null
+      },
+      "awarder": {
+        "ja": null,
+        "en": null
+      },
+      "date": {
+        "year": 2023,
+        "month": null,
+        "day": null,
+        "display_ja": "2023年",
+        "display_en": "2023"
+      },
+      "links": {
+        "announcement": null
+      },
+      "language": ["ja"],
+      "notes": null
+    }
+  ]
+}

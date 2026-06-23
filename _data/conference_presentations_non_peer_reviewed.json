@@ -1,6 +1,43 @@
 {
   "items": [
     {
+      "id": "ip73-2026-LUTI-dynamic-game",
+      "title": {
+        "ja": "戦略的相互内生動学を組み込んだ交通-土地利用モデルのサンプリング型構造推定",
+        "en": null
+      },
+      "authors": {
+        "ja": ["増田慧樹", "羽藤英二"],
+        "en": []
+      },
+      "author_annotations": {
+        "presenter": ["増田慧樹"]
+      },
+      "event": {
+        "ja": "第73回土木計画学研究発表会・春大会",
+        "en": null
+      },
+      "date": {
+        "year": 2026,
+        "month": 6,
+        "day": null,
+        "end_year": null,
+        "end_month": null,
+        "end_day": null,
+        "display_ja": "2026年6月",
+        "display_en": "June 2026"
+      },
+      "links": {
+        "paper": null,
+        "slides": "https://speakerdeck.com/stkmsd/ip73-luti-dynamic-game",
+        "code": null,
+        "video": null
+      },
+      "language": ["ja"],
+      "status": "presented",
+      "notes": null
+    },
+    {
       "id": "ip71-2025-contraflow-reconfiguration",
       "title": {
         "ja": "大型台風避難におけるContraflowの組合せ遷移最適制御問題",

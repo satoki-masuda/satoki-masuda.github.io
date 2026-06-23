@@ -1,6 +1,35 @@
 {
   "items": [
     {
+      "id": "4UniC2026",
+      "title": {
+        "ja": null,
+        "en": "A Dynamic Game-Theoretic Land-Use and Transport Interaction Model for Resilient Urban Transition",
+      },
+      "event": {
+        "ja": null,
+        "en": "4-University Conference on Transportation"
+      },
+      "date": {
+        "year": 2026,
+        "month": 6,
+        "day": 15,
+        "end_year": null,
+        "end_month": null,
+        "end_day": null,
+        "display_ja": "2026年6月15日",
+        "display_en": "June 15, 2026"
+      },
+      "links": {
+        "paper": null,
+        "slides": null,
+        "code": null,
+        "video": null
+      },
+      "language": ["en"],
+      "notes": null
+    },
+    {
       "id": "kanazawa2024-pre-disaster-incentive-study-group",
       "title": {
         "ja": "多期間展開形ゲームに基づく立地行動モデルを用いた、事前復興インセンティブの最適設計",

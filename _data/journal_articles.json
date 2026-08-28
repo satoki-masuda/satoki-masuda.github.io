@@ -1,6 +1,52 @@
 {
   "items": [
     {
+      "id": "trc-2026-reconfiguration",
+      "title": {
+        "ja": null,
+        "en": "Combinatorial reconfiguration for perimeter contraflow planning of urban evacuation network"
+      },
+      "authors": {
+        "ja": [],
+        "en": ["Masuda, S.", "Hato, E."]
+      },
+      "venue": {
+        "ja": null,
+        "en": "Transportation Research Part C: Emerging Technologies"
+      },
+      "publication_detail": {
+        "volume": "192",
+        "issue": null,
+        "pages": "105875",
+        "raw": {
+          "ja": null,
+          "en": "192"
+        }
+      },
+      "date": {
+        "year": 2026,
+        "month": null,
+        "day": null,
+        "end_year": null,
+        "end_month": null,
+        "end_day": null,
+        "display_ja": "2026年",
+        "display_en": "2026"
+      },
+      "identifiers": {
+        "doi": "https://doi.org/10.1016/j.trc.2026.105875"
+      },
+      "links": {
+        "paper": null,
+        "slides": null,
+        "code": null,
+        "video": null
+      },
+      "language": ["en"],
+      "status": "published",
+      "notes": null
+    },
+    {
       "id": "transportmetrica-b-2024-learning-forgetting-evacuations",
       "title": {
         "ja": null,
@@ -264,7 +310,7 @@
         "display_en": "2022"
       },
       "identifiers": {
-        "doi": "http://www.jasdis.gr.jp/_src/2194/20-1.pdf?v=1696397008166"
+        "doi": "https://doi.org/10.24709/jasdis.20.1_75"
       },
       "links": {
         "paper": null,
@@ -272,7 +318,7 @@
         "code": null,
         "video": null
       },
-      "language": ["ja", "en"],
+      "language": ["ja"],
       "status": "published",
       "notes": null
     }

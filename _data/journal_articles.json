@@ -37,8 +37,8 @@
         "doi": "https://doi.org/10.1016/j.trc.2026.105875"
       },
       "links": {
-        "paper": null,
-        "slides": null,
+        "paper": "https://doi.org/10.2139/ssrn.6254084",
+        "slides": "https://speakerdeck.com/stkmsd/tr-c2026",
         "code": null,
         "video": null
       },

@@ -10,7 +10,6 @@ content_class: "home-content"
         <img src="img/Masuda_Satoki.jpeg" alt="Satoki Masuda profile photo">
     </div>
     <div class="home-intro">
-        <h2>Welcome!</h2>
         <p><strong>Assistant Professor, Center for Water Cycle, Marine Environment and Disaster Management, Kumamoto University</strong></p>
         <p>
             I study behavior modeling and planning in urban spaces, using techniques from various fields such as choice modeling,
@@ -32,7 +31,6 @@ content_class: "home-content"
 -->
 <section class="home-news">
     <h2>News</h2>
-    <p>Recent updates and announcements.</p>
     <ul class="news-list">
         {% assign news_items = site.data.news | sort: 'date' | reverse %}
         {% for item in news_items limit: 5 %}

@@ -1,6 +1,33 @@
 {
   "items": [
     {
+      "id": "young-researcher-award-2026",
+      "name": {
+        "ja": "Behavior in Transportation Networks Outstanding Young Researcher Award",
+        "en": "Behavior in Transportation Networks Outstanding Young Researcher Award"
+      },
+      "description": {
+        "ja": null,
+        "en": "The award recognizes outstanding young researchers in the field of behavior in transportation networks."
+      },
+      "awarder": {
+        "ja": null,
+        "en": null
+      },
+      "date": {
+        "year": 2026,
+        "month": null,
+        "day": null,
+        "display_ja": "2026年",
+        "display_en": "2026"
+      },
+      "links": {
+        "announcement": null
+      },
+      "language": ["ja"],
+      "notes": null
+    },
+    {
       "id": "reconstruction-paper-award-2023-encouragement",
       "name": {
         "ja": "第四回復興研究論文賞 奨励論文賞",
@@ -15,11 +42,11 @@
         "en": null
       },
       "date": {
-        "year": 2023,
+        "year": 2022,
         "month": null,
         "day": null,
-        "display_ja": "2023年",
-        "display_en": "2023"
+        "display_ja": "2022年",
+        "display_en": "2022"
       },
       "links": {
         "announcement": null

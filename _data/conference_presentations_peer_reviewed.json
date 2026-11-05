@@ -1,6 +1,43 @@
 {
   "items": [
     {
+      "id": "hksts2026-matsuyama-causal-inference",
+      "title": {
+        "ja": null,
+        "en": "Dynamic Effects of Transport Network Change on Residential Mobility, Housing Markets, and Travel Behavior"
+      },
+      "authors": {
+        "ja": [],
+        "en": ["Masuda, S."]
+      },
+      "author_annotations": {
+        "presenter": ["Masuda, S."]
+      },
+      "event": {
+        "ja": null,
+        "en": "The 30th International Conference of Hong Kong Society for Transportation Studies (HKSTS), Hong Kong"
+      },
+      "date": {
+        "year": 2026,
+        "month": 12,
+        "day": 14,
+        "end_year": 2026,
+        "end_month": 12,
+        "end_day": 15,
+        "display_ja": "2026年12月14-15日",
+        "display_en": "Dec 14-15, 2026"
+      },
+      "links": {
+        "paper": null,
+        "slides": null,
+        "code": null,
+        "video": null
+      },
+      "language": ["en"],
+      "status": "accepted (poster)",
+      "notes": null
+    },
+    {
       "id": "hksts2025-locationchoice",
       "title": {
         "ja": null,

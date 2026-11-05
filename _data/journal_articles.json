@@ -1,5 +1,51 @@
 {
   "items": [
+      {
+      "id": "cpij-2026-matsuyama-causal-inference",
+      "title": {
+        "ja": "都市内道路整備が土地市場に与える影響：松山外環状道路の段階的整備を用いたコホート別差の差分析",
+        "en": "Effects of urban road development on land market: A staggered difference-in-differences analysis of the Matsuyama Outer Ring Road"
+      },
+      "authors": {
+        "ja": ["増田慧樹"],
+        "en": ["Masuda, S."]
+      },
+      "venue": {
+        "ja": "都市計画論文集",
+        "en": "Journal of the City Planning Institute of Japan"
+      },
+      "publication_detail": {
+        "volume": "61",
+        "issue": "3",
+        "pages": "1943-1950",
+        "raw": {
+          "ja": "61(3), pp.1943-1950",
+          "en": "61(3), pp.1943-1950"
+        }
+      },
+      "date": {
+        "year": 2026,
+        "month": null,
+        "day": null,
+        "end_year": null,
+        "end_month": null,
+        "end_day": null,
+        "display_ja": "2026年",
+        "display_en": "2026"
+      },
+      "identifiers": {
+        "doi": "https://doi.org/10.11361/journalcpij.61.1943"
+      },
+      "links": {
+        "paper": null,
+        "slides": "https://speakerdeck.com/stkmsd/cpij2026-masuda",
+        "code": null,
+        "video": null
+      },
+      "language": ["ja", "en"],
+      "status": "published",
+      "notes": null
+    },
     {
       "id": "trc-2026-reconfiguration",
       "title": {

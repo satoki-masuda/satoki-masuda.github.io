@@ -1,6 +1,43 @@
 {
   "items": [
     {
+      "id": "ip74-2026-satellite",
+      "title": {
+        "ja": "衛星画像を用いた全国道路網の時系列復元と道路整備効果の分析",
+        "en": null
+      },
+      "authors": {
+        "ja": ["増田慧樹"],
+        "en": []
+      },
+      "author_annotations": {
+        "presenter": ["増田慧樹"]
+      },
+      "event": {
+        "ja": "第74回土木計画学研究発表会・秋大会",
+        "en": null
+      },
+      "date": {
+        "year": 2026,
+        "month": 12,
+        "day": null,
+        "end_year": null,
+        "end_month": null,
+        "end_day": null,
+        "display_ja": "2026年12月",
+        "display_en": "Dec 2026"
+      },
+      "links": {
+        "paper": null,
+        "slides": null,
+        "code": null,
+        "video": null
+      },
+      "language": ["ja"],
+      "status": "",
+      "notes": null
+    },
+    {
       "id": "ip73-2026-LUTI-dynamic-game",
       "title": {
         "ja": "戦略的相互内生動学を組み込んだ交通-土地利用モデルのサンプリング型構造推定",
